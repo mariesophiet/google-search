@@ -1,0 +1,56 @@
+nav {
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    
+}
+
+.searchbar {
+    /* how big is search bar */
+    width: 30%;
+    margin: auto;
+
+    /* center search bar horizontally and vertically */
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    -ms-transform: translate(-50%, -35%);
+    transform: translate(-50%, -35%);
+}
+
+form {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+#search {
+    width: 100%;
+
+}
+
+#left {
+    float: left;
+    width: 48%;
+
+}
+
+#right {
+    float: right;
+    width: 48%;
+}
