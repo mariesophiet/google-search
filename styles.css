@@ -128,15 +128,20 @@ label {
 
 .col-25 {
     float: left;
-    width: 25%;
+    width: 250px;
     margin-top: 6px;
-    
+    text-align: left;
 }
 
 .col-75 {
     float: left;
-    width: 75%;
+    width: 450px;
     margin-top: 6px;
+    position: relative;
+  }
+
+  .line {
+    width: 100%;
   }
 
   * {
@@ -145,18 +150,22 @@ label {
 
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    .col-25, .col-75 {
+    .col-25, .col-75, .sub, #adv_sub {
       width: 100%;
       margin-top: 0;
     }
 }
 
 #adv_sub {
+    position: absolute;
     float: right;
+  
 }
 
 .inpt {
     width: 100%;
     resize: vertical;
-    
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(82, 81, 81);
 }
